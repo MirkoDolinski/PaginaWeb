@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #2c3e50; 
+  color: #ecf0f1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #2980b9; 
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.lista-boxeadores {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.boxeador-item {
+  background-color: #34495e; 
+  border: 1px solid #1abc9c; 
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: 250px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.boxeador-item:hover {
+  background-color: #2c3e50;
+  transform: scale(1.05);
+}
+
+h2 {
+  color: #f39c12; 
+  font-size: 1.8em;
+}
+
+p {
+  font-size: 1em;
+  color: #bdc3c7; 
+}
+
+strong {
+  color: #ecf0f1; 
+}
+
+.detalles {
+  background-color: #34495e;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.detalles h3 {
+  font-size: 1.5em;
+  color: #f39c12; 
+}
+
+.detalles p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #ecf0f1;
+}
